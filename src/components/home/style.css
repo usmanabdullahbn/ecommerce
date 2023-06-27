@@ -1,0 +1,28 @@
+.h1 {
+    text-align: center;
+    background-color: #fbce03;
+    color: whitesmoke;
+  }
+  
+  .products-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    
+    .product-item {
+      background: #000;
+      color: #ffdd40;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      border: 5px solid #f7ca03;
+      border-radius: 50px;
+      padding: 30px;
+    }
+    .product-item:hover{
+      transition: all ease-in-out 0.3s;
+      transform: scale(1.1);
+    }

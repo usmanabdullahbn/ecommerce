@@ -1,0 +1,25 @@
+.h1 {
+  text-align: center;
+  background-color: #fbce03;
+  color: whitesmoke;
+}
+
+#fixed-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fbce03;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+}
+#fixed-btn:hover {
+  transition: all ease-in-out 0.3s;
+  transform: scale(1.1);
+  background-color: black;
+}
+.icon {
+  font-size: 30px;
+}
+.btn {
+  color: #fbce03;
+}
